@@ -16,6 +16,8 @@
 <body>
 <div id="app">
 <h1>RGB Color Compliments</h1>
+<div id="github"><a href="https://github.com/nttgrt/CP3/tree/master">Github Link</a></div>
+
 
 <!--div class="row justiry-content-center">
     <div class="col"><input v-model="rgb.r" maxlength="3"></input></div>
@@ -23,13 +25,12 @@
     <div class="col"><input v-model="rgb.b" maxlength="3"></input></div>
 </div-->
 
-<a href="">Github Link</a>
 
 <div class="row justiry-content-center">
     <div id="filler"></div>
-    <input v-model="rgb.r" maxlength="3" id="rInput"></input>
-    <input v-model="rgb.g" maxlength="3" id="gInput"></input>
-    <input v-model="rgb.b" maxlength="3" id="bInput"></input>
+    <input v-model="rgb.r" maxlength="3" type="number" id="rInput"></input>
+    <input v-model="rgb.g" maxlength="3" type="number" id="gInput"></input>
+    <input v-model="rgb.b" maxlength="3" type="number" id="bInput"></input>
     <div id="filler"></div>
 </div>
 
@@ -43,7 +44,6 @@
     <div class="col" id="colorMain"></div>
     <div class="col" id="color2"></div>
 </div>
-
 
 </div>
 <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
