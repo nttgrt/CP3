@@ -1,0 +1,56 @@
+<!--This product uses the TMDb API but is not endorsed or certified by TMDb.-->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Color</title>
+    <meta charset="utf-8"/>
+    <meta keywords="Nathan Dawson">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cairo:200,300,400,600,700,900" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+<div id="app">
+<h1>RGB Color Compliments</h1>
+
+<!--div class="row justiry-content-center">
+    <div class="col"><input v-model="rgb.r" maxlength="3"></input></div>
+    <div class="col"><input v-model="rgb.g" maxlength="3"></input></div>
+    <div class="col"><input v-model="rgb.b" maxlength="3"></input></div>
+</div-->
+
+<a href="">Github Link</a>
+
+<div class="row justiry-content-center">
+    <div id="filler"></div>
+    <input v-model="rgb.r" maxlength="3" id="rInput"></input>
+    <input v-model="rgb.g" maxlength="3" id="gInput"></input>
+    <input v-model="rgb.b" maxlength="3" id="bInput"></input>
+    <div id="filler"></div>
+</div>
+
+<!--p v-bind:model="activeColor">Active Color: {{ activeColor }}
+    rgb: {{rgb.r}}, {{rgb.g}}, {{rgb.b}}
+</p-->
+<br style="height: 50px">
+
+<div class="row">
+    <div class="col" id="color1"></div>
+    <div class="col" id="colorMain"></div>
+    <div class="col" id="color2"></div>
+</div>
+
+
+</div>
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<!--script src="https://cdn.jsdelivr.net/npm/vue"></script-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js" integrity="sha256-4iQZ6BVL4qNKlQ27TExEhBN1HFPvAvAMbFavKKosSWQ=" crossorigin="anonymous"></script>
+<script src="script.js"></script>
+
+</body>
+
+</html>
